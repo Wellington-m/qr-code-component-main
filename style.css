@@ -12,6 +12,7 @@ body {
 .container {
     width: 1440px;
     height: 960px;
+    margin: 0 auto;
 }
 
 #qr-code {
@@ -46,11 +47,23 @@ body {
 
 #qr-code div p {
     font-size: 15px;
-    color: #1f314f;
+    color: #68778d;
     line-height: 140%;
     letter-spacing: 0.2px;
 }
 
 .attribution {
     margin-left: 10px;
+}
+
+@media screen and (max-width: 430px) {
+    .container {
+        width: 375px;
+        height: 812px;
+        margin: 0 auto;
+    }
+
+    .attribution {
+        margin-top: 10px;
+    }
 }
